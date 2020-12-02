@@ -65,7 +65,9 @@ p {
   background-color: white;
   position: relative;
 }
-
+.features .container-fluid{
+  margin:0;
+}
 .features-icon {
   color: #ef8172;
   margin-bottom: 1.2rem;
@@ -136,6 +138,12 @@ h2 {
 }
 
 @media (max-width:991px) {
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
   .title {
     text-align: center;
   }
@@ -148,8 +156,5 @@ h2 {
 
   .press-logo {
     width: 22%;
-  }
-  h1,h2{
-    font-size:0.7em;
   }
 }
