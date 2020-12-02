@@ -149,4 +149,7 @@ h2 {
   .press-logo {
     width: 22%;
   }
+  h1,h2{
+    font-size:0.7em;
+  }
 }
